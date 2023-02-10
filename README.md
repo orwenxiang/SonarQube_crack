@@ -16,5 +16,6 @@ Important:
 
 If You work on Windows, export runable jar from Eclipse and run it under linux.
 This is because EOL encoding. It MUST be Linux EOL: \n (0x0a)
+
 run jar by command: java -jar ./HelloWorld.jar
 
