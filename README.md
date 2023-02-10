@@ -1,6 +1,6 @@
 # SonarQube_crack
 
-This is en example how to not use assimetric encryption and signing.
+This is en example how to not use asymmetric encryption and signing.
 
 Steps:
 1. download SonarQube Developer or Entrprise: https://www.sonarsource.com/products/sonarqube/downloads/
