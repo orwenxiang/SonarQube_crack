@@ -77,6 +77,13 @@ public class HelloWorld {
 		
 		System.out.println(Sign_license(license, GetKey(priv_file)));
 		System.out.println(license.F());
+		boolean ddd = Verify_licence(license, GetKey(pub_file));
+		if (ddd)
+		{
+			System.out.println("License OK!");
+		}
+		else
+			System.out.println("License NOK!");
 	}
 
 
@@ -176,7 +183,7 @@ class A {
 
 	      for(int var7 = 1; var7 < var2; ++var7) {
 	         long var8 = var6.nextLong();
-	         AA(var1[var7] ^ var8, var3, 8 * (var7 - 1));
+	         longToBytes(var1[var7] ^ var8, var3, 8 * (var7 - 1));
 	      }
 
 	      String var11;
@@ -190,7 +197,7 @@ class A {
 	      this.A = var12 != -1 ? var11.substring(0, var12) : var11;
 	   }
 
-	   private static void AA(long var0, byte[] var2, int var3) {
+	   private static void longToBytes(long var0, byte[] var2, int var3) {
 	      long var4 = var0;
 	      int var6 = Math.min(var2.length, var3 + 8);
 
