@@ -3,7 +3,7 @@
 This is en example how to NOT use asymmetric encryption and signing.
 Easy to analyse and break protection.
 
-Here is different in previous versions because sonarsource-dsa-public.key is not present in \lib\sonar-application-10.2.1.78527.jar. Oryginal public key is embedded directly in java code as obfuscated Base64 string.
+Here is different than in previous versions because sonarsource-dsa-public.key is not present in \lib\sonar-application-10.2.1.78527.jar. Oryginal public key is embedded directly in java code as obfuscated Base64 string.
 
 Steps:
 1. download SonarQube version 10.2.1.78527 Developer or Entrprise: https://www.sonarsource.com/products/sonarqube/downloads/
